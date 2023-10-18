@@ -1,0 +1,73 @@
+.cardMain {
+    display: flex;
+    padding: 18px 20px 18px 19px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    align-self: stretch;
+    min-width: 20%;
+    min-height: 100%;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.icon {
+    width: 20%;
+
+}
+
+.cardUp {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    border-bottom: 1px solid rgba(236, 241, 240, 0.05);
+}
+
+.cardDown {
+    height: 50%;
+}
+
+.criptoName {
+    display: flex;
+    padding: 4px 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #1D1429;
+
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 4px;
+    background: #B6B6B6;
+}
+
+.indicator {
+    margin-left: 20%;
+}
+
+.downLeft {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.currentPrice {
+    color: #ECF1F0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.momentVariation {
+    color: #B6B6B6;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}

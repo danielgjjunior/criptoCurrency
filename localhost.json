@@ -1,0 +1,52 @@
+[
+    {
+        "coin": "Bitcoin",
+        "currentPrice": "28478.81000000",
+        "momentVariation": -0.039241853015747896
+    },
+    {
+        "coin": "Ethereum",
+        "currentPrice": "1570.16000000",
+        "momentVariation": -0.11260043386155383
+    },
+    {
+        "coin": "Binance Coin",
+        "currentPrice": "211.90000000",
+        "momentVariation": 0
+    },
+    {
+        "coin": "Cardano",
+        "currentPrice": "0.24580000",
+        "momentVariation": 0.12219959266801528
+    },
+    {
+        "coin": "Solana",
+        "currentPrice": "24.04000000",
+        "momentVariation": 0.4177109440267168
+    },
+    {
+        "coin": "XRP",
+        "currentPrice": "0.49110000",
+        "momentVariation": 0.08151620134499993
+    },
+    {
+        "coin": "Polkadot",
+        "currentPrice": "3.65700000",
+        "momentVariation": 0.10949904188337634
+    },
+    {
+        "coin": "Dogecoin",
+        "currentPrice": "0.05889000",
+        "momentVariation": 0.3407735559720626
+    },
+    {
+        "coin": "Chainlink",
+        "currentPrice": "7.33300000",
+        "momentVariation": 0.4245412215831301
+    },
+    {
+        "coin": "Litecoin",
+        "currentPrice": "62.08000000",
+        "momentVariation": 0.14518470721083254
+    }
+]
