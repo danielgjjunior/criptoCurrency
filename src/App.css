@@ -6,11 +6,10 @@
 .main {
   width: 100vw;
   height: 100vh;
-  background-color: #11011E;
+  background-color: #11011e;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
 }
 
 .upperDiv {
@@ -26,14 +25,15 @@
 .downDiv {
   display: flex;
   flex-direction: column;
-  height: 28%;
+  height: 40vh;
   padding: 2%;
+  overflow-x: auto;
 }
 
 .title {
-  color: #ECF1F0;
+  color: #ecf1f0;
   text-align: center;
-  font-feature-settings: 'salt' on, 'liga' off;
+  font-feature-settings: "salt" on, "liga" off;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -41,7 +41,7 @@
 }
 
 .authors {
-  color: #B6B6B6;
+  color: #b6b6b6;
   text-align: center;
   font-size: 18px;
   font-style: normal;
@@ -49,22 +49,46 @@
   line-height: 160%;
 }
 
+.button {
+  display: flex;
+  width: 11.875rem;
+  padding: 1rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  cursor:pointer;
+  border-radius: 0.625rem;
+  background: #0fae96;
+}
+
 .buttonDiv {
   height: 2%;
 }
 
 .marketTitle {
-  color: #ECF1F0;
+  color: #ecf1f0;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
 }
-.cards{
+.cards {
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 60%;
   gap: 1%;
   justify-content: space-between;
+}
 
+/* Estilize a barra de rolagem horizontal */
+.downDiv::-webkit-scrollbar {
+  width: 2%; /* Largura da barra de rolagem */
+}
+
+.downDiv::-webkit-scrollbar-thumb {
+  background-color: white; /* Cor da barra de rolagem */
+}
+
+.downDiv::-webkit-scrollbar-track {
+  background-color: rgba(236, 241, 240, 0.05); /* Cor da área de rolagem */
 }

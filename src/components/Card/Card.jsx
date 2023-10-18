@@ -12,6 +12,8 @@ import PolkadotIcon from '../../assets/logos/Polkadot.png';
 import DogecoinIcon from '../../assets/logos/Dogecoin.png';
 import ChainlinkIcon from '../../assets/logos/Chainlink.png';
 import LitecoinIcon from '../../assets/logos/Litecoin.png';
+import positiveChart from '../../assets/positiveChart.png'
+import negativeChart from '../../assets/negativeChart.png'
 
 // Defina o objeto iconMapping fora do componente
 const iconMapping = {
@@ -32,8 +34,6 @@ export default function Card(props) {
     const criptoName = props.criptoName;
     const momentVariation = props.momentVariation;
     const currentPrice = props.currentPrice;
-
-    // Use o iconMapping para obter o ícone com base no nome da criptomoeda
     const icon = iconMapping[criptoName];
 
     return (
@@ -55,7 +55,11 @@ export default function Card(props) {
                     <span className='momentVariation'>{(momentVariation * 100).toFixed(2)} %</span>
                 </div>
                 <div className='downRight'>
-                    
+                    <img
+                        src={momentVariation > 0 ? positiveChart : negativeChart}
+                        alt='chart'
+                        className='chart'
+                    />
                 </div>
             </div>
         </div>

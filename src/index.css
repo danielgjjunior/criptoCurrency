@@ -1,3 +1,32 @@
 *{
   font-family: 'Raleway', sans-serif;
 }
+
+
+.ellipse {
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+}
+
+.ellipse1 {
+  width: 35%;
+  height: 40%;
+  border-radius: 42.1875rem;
+background: #7000FF;
+
+filter: blur(200px);
+  top: 15%; 
+  left: 20%; 
+}
+
+.ellipse2 {
+  width: 35%;
+  height: 40%;
+  flex-shrink: 0;
+border-radius: 42.1875rem;
+background: #FF00C7;
+filter: blur(200px);
+  top: 15%; 
+  right: 20%; 
+}
